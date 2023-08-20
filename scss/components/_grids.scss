@@ -1,0 +1,15 @@
+.gridinfo {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center; }
+  
+  .gridinfo img {
+    width: 100%; }
+  
+  @media screen and (max-width: 768px) {
+    .gridinfo {
+      grid-template-columns: 300px;
+      max-width: 100%; } }
+  
